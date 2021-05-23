@@ -10,8 +10,7 @@ const simpleGit = require('simple-git');
 
 const FILE_PATH = './data.json';
 
-// Edit Number Before The 'd'
-const DATE = moment().subtract(3, 'd').format();
+const DATE = moment().format();
 
 const data = {
     date: DATE
